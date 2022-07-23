@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont{
+    font-family: Arial, Helvetica, sans-serif;
+    .up{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20rem;
+        margin-bottom: 2rem;
+        p{
+            gap: 4rem;
+            display: flex;
+            
+            .sp1{
+                border-bottom: 3px solid orangered;
+
+            }
+            span{
+                cursor: pointer;
+            }
+        }
+        button{
+            padding: .8rem 2rem;
+            border: none;
+            color: white;
+            background-color: rgba(1, 75, 1, 0.658);
+            cursor: pointer;
+            border-radius: 10px;
+        }
+    }
+    .c1{
+        margin-bottom: 6rem;
+        display: flex;
+        gap: 10rem;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 3rem;
+        .text{
+            p{
+                font-weight: 500;
+                margin-bottom: 1rem;
+                line-height: 1.4rem;
+                span{
+                    font-weight: 800;
+                }
+            }
+  
+            h2{
+                font-size: 2rem;
+                margin-bottom: 1rem;
+            }
+            button{
+                padding: 0.7rem;
+                border: none;
+                background-color: rgba(0, 128, 0, 0.616);
+                color: white;
+                cursor: pointer;
+                font-weight: 600;
+                border-radius: 7px;
+                
+            }
+       
+        }
+        .e2{
+            width: 30rem;
+            border-radius: 10px;
+            clip-path: polygon(51% 2%, 100% 8%, 100% 60%, 97% 100%, 5% 100%, 0% 60%, 0 6%);
+        }
+    }
+    .rab{
+        text-align: center;
+        margin-bottom: 2rem;
+        h1{
+            margin-bottom: 1ex;
+        }
+        p{
+            margin-bottom: 1em;
+        }
+        .im1{
+            height: 15rem;
+            border-radius: 5px;
+            margin-bottom: 3rem;
+            width: 67rem;
+            object-fit: cover;
+            object-position: bottom;
+        }
+    }
+    .proj{
+        // text-align: center;
+        
+        .text{
+            text-align: center;
+            .h2{
+            
+                margin-bottom: 1rem;
+            }
+            .p23{
+                margin-bottom: 3rem;
+            }
+        }
+      
+        .obsh{
+            display: flex;
+            justify-content: center;
+            gap: 4rem;
+            align-items: center;
+            text-align: center;
+            .card1{
+                // width: 20rem;
+                text-align: center;
+                h2{
+                    color: rgba(98, 20, 172, 0.582);
+                    // text-align: left;
+                }
+                p{
+                    font-size: .8rem;
+                }
+                .img1{
+                    width: 25rem;
+                    height: 16rem;
+                    clip-path: polygon(48% 4%, 100% 0, 100% 42%, 94% 78%, 50% 100%, 51% 100%, 6% 78%, 0% 43%, 0% 0%);
+                }
+                .img2{
+                    clip-path: circle(30% at 50% 50%);
+                }
+            }
+        }
+    }
+    .pod{
+        margin: 5rem;
+        .text{
+           text-align: center;
+           h2{
+            margin-bottom: 1rem;
+           } 
+           p{
+               display: flex;
+               gap: 7rem;
+               justify-content: center;     
+               margin-bottom: 3rem;
+           }
+        }
+        .ima{
+            background-color: rgba(128, 128, 128, 0.829);
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            align-items: center;
+            img{
+                width: 20rem;
+                height: 20rem;
+                object-fit: cover;
+            }
+            .tex{
+                padding: 1rem;
+                .upp{
+                    display: flex;
+                    justify-content: center;
+                    gap: 3rem;
+                    margin-bottom: 3rem;
+                    h2{
+                        color: rgba(0, 0, 255, 0.521);
+                        p{
+                            font-size: 1rem;
+                            color: rgb(82, 82, 87);
+                        }
+                    }
+                }
+                .pi{
+                    font-weight: 500;
+                    font-size: .9rem;
+                }
+            }
+        }
+    }
+    .table{
+        display: flex;
+        justify-content: center;
+        gap: 10rem;
+        padding: 5rem;
+        .text{
+            h1{
+                margin-bottom: 1rem;
+            }
+        }
+       .tabl{
+           border: 3px solid red;
+           width: 30rem;
+           p{
+               border-bottom: 3px solid red;
+               padding-top: 1rem;
+           }
+           button{
+               margin-top: 3rem;
+               margin-left: 20rem;
+               margin-bottom: 1rem;
+               color: rgba(255, 255, 255, 0.89);
+               cursor: pointer;
+               background-color: rgba(17, 75, 17, 0.685);
+               padding: 3px 2rem 3px 2rem;
+               border: none;
+               border-radius: 3px;
+
+           }
+       }
+    }
+}

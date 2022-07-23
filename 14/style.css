@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cont {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cont .up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20rem;
+  margin-bottom: 2rem;
+}
+
+.cont .up p {
+  gap: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cont .up p .sp1 {
+  border-bottom: 3px solid orangered;
+}
+
+.cont .up p span {
+  cursor: pointer;
+}
+
+.cont .up button {
+  padding: .8rem 2rem;
+  border: none;
+  color: white;
+  background-color: rgba(1, 75, 1, 0.658);
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.cont .c1 {
+  margin-bottom: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.cont .c1 .text p {
+  font-weight: 500;
+  margin-bottom: 1rem;
+  line-height: 1.4rem;
+}
+
+.cont .c1 .text p span {
+  font-weight: 800;
+}
+
+.cont .c1 .text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cont .c1 .text button {
+  padding: 0.7rem;
+  border: none;
+  background-color: rgba(0, 128, 0, 0.616);
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 7px;
+}
+
+.cont .c1 .e2 {
+  width: 30rem;
+  border-radius: 10px;
+  -webkit-clip-path: polygon(51% 2%, 100% 8%, 100% 60%, 97% 100%, 5% 100%, 0% 60%, 0 6%);
+          clip-path: polygon(51% 2%, 100% 8%, 100% 60%, 97% 100%, 5% 100%, 0% 60%, 0 6%);
+}
+
+.cont .rab {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.cont .rab h1 {
+  margin-bottom: 1ex;
+}
+
+.cont .rab p {
+  margin-bottom: 1em;
+}
+
+.cont .rab .im1 {
+  height: 15rem;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+  width: 67rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+
+.cont .proj .text {
+  text-align: center;
+}
+
+.cont .proj .text .h2 {
+  margin-bottom: 1rem;
+}
+
+.cont .proj .text .p23 {
+  margin-bottom: 3rem;
+}
+
+.cont .proj .obsh {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 4rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.cont .proj .obsh .card1 {
+  text-align: center;
+}
+
+.cont .proj .obsh .card1 h2 {
+  color: rgba(98, 20, 172, 0.582);
+}
+
+.cont .proj .obsh .card1 p {
+  font-size: .8rem;
+}
+
+.cont .proj .obsh .card1 .img1 {
+  width: 25rem;
+  height: 16rem;
+  -webkit-clip-path: polygon(48% 4%, 100% 0, 100% 42%, 94% 78%, 50% 100%, 51% 100%, 6% 78%, 0% 43%, 0% 0%);
+          clip-path: polygon(48% 4%, 100% 0, 100% 42%, 94% 78%, 50% 100%, 51% 100%, 6% 78%, 0% 43%, 0% 0%);
+}
+
+.cont .proj .obsh .card1 .img2 {
+  -webkit-clip-path: circle(30% at 50% 50%);
+          clip-path: circle(30% at 50% 50%);
+}
+
+.cont .pod {
+  margin: 5rem;
+}
+
+.cont .pod .text {
+  text-align: center;
+}
+
+.cont .pod .text h2 {
+  margin-bottom: 1rem;
+}
+
+.cont .pod .text p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 7rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.cont .pod .ima {
+  background-color: rgba(128, 128, 128, 0.829);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cont .pod .ima img {
+  width: 20rem;
+  height: 20rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.cont .pod .ima .tex {
+  padding: 1rem;
+}
+
+.cont .pod .ima .tex .upp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.cont .pod .ima .tex .upp h2 {
+  color: rgba(0, 0, 255, 0.521);
+}
+
+.cont .pod .ima .tex .upp h2 p {
+  font-size: 1rem;
+  color: #525257;
+}
+
+.cont .pod .ima .tex .pi {
+  font-weight: 500;
+  font-size: .9rem;
+}
+
+.cont .table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10rem;
+  padding: 5rem;
+}
+
+.cont .table .text h1 {
+  margin-bottom: 1rem;
+}
+
+.cont .table .tabl {
+  border: 3px solid red;
+  width: 30rem;
+}
+
+.cont .table .tabl p {
+  border-bottom: 3px solid red;
+  padding-top: 1rem;
+}
+
+.cont .table .tabl button {
+  margin-top: 3rem;
+  margin-left: 20rem;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.89);
+  cursor: pointer;
+  background-color: rgba(17, 75, 17, 0.685);
+  padding: 3px 2rem 3px 2rem;
+  border: none;
+  border-radius: 3px;
+}
+/*# sourceMappingURL=style.css.map */
